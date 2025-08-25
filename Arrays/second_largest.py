@@ -2,9 +2,10 @@
 # Source: GeeksForGeeks
 # Difficulty: Easy
 # Category: Array
-# Notes:
-# - Returns -1 if all elements are equal or array length < 2.
-# - Mutates the input array by removing the maximum values.
+
+# This solution:
+# 1. Returns -1 if all elements are equal or array length < 2.
+# 2. Mutates the input array by removing the maximum values.
 
 class Solution:
     def getSecondLargest(self, arr):
@@ -17,7 +18,7 @@ class Solution:
             arr.remove(greatest)
         return max(arr)
 
-# --- Minimal driver / usage examples for local runs (not required by GFG) ---
+# --- Usage examples for local runs (not required by GFG) ---
 if __name__ == "__main__":
     s = Solution()
     # Basic cases
@@ -31,3 +32,15 @@ if __name__ == "__main__":
     a = [4, 7, 7, 2]
     out = s.getSecondLargest(a)
     print(out, a)  # 4, and a becomes [4, 2]
+
+# ---------------- NOTES ----------------
+# Problem: Second Largest
+# My Solution Idea:
+# 1. Find the largest element using max()
+# 2. Count the occurrance of the largest element using count()
+# 3. If array only had largest element → return -1
+# 4. Else remove all largest and return new largest
+#
+# Why I did this: I know max() and count(), so used them directly.
+#
+# Future Refinement: Try without removing elements from list (optimize time).
