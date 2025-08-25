@@ -60,8 +60,10 @@ This section will be expanded once I’ve solved and documented enough problems.
 - Category
 - Approach
 - Complexity analysis
+- Short summary
 - Code snippet
 - Key learning
+- Detailed notes
 
 *(Coming soon — as solutions accumulate.)*
 
