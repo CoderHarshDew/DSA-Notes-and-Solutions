@@ -4,23 +4,23 @@ Tracking my journey through DSA: problems, solutions, and the insights gained al
 
 ---
 ## 📂 Structure
-
-DSA-Notes-and-Solutions\
-│\
-├── Arrays\
-│     ├── problem1.py\
-│     ├── problem2.py\
-│     └── README.md   # approach, complexity, pitfalls\
-│\
-├── Strings\
-│   ├── problem1.py\
-│   └── README.md\
-│\
-├── Hashmaps\
-│   └── ...\
-│\
+```
+DSA-Notes-and-Solutions
+│
+├── Arrays
+│     ├── problem1.py
+│     ├── problem2.py
+│     └── README.md   # approach, complexity, pitfalls
+│
+├── Strings
+│   ├── problem1.py
+│   └── README.md
+│
+├── Hashmaps
+│   └── ...
+│
 └── README.md  # main description
-
+```
 
 ---
 ## 📂 Categories Covered
